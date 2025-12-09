@@ -21,8 +21,12 @@ fill(mouseX/3, 0, mouseX/2);
   text("143, 0, 255");
   textStyle(BOLD);
   textAlign(CENTER, CENTER);
+
+
+  
   
   let w = mouseX;
+  fill(255, 0, 238);
   ellipse(200,200,w);
 
 }
