@@ -16,4 +16,13 @@ fill(mouseX/3, 0, mouseX/2);
   //give me a circle that expads with mouse movement
   // give text of your least favourite word in pink!
 
+
+  fill(255, 0, 238)
+  text("143, 0, 255");
+  textStyle(BOLD);
+  textAlign(CENTER, CENTER);
+  
+  let w = mouseX;
+  ellipse(200,200,w);
+
 }
