@@ -4,7 +4,7 @@ function setup() {
 
 function draw() {
   //make background black (done)
-  background(255);
+  background(0);
 
 fill(mouseX/3, 0, mouseX/2);
  rect(50, 50,50);
