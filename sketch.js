@@ -3,9 +3,17 @@ function setup() {
 }
 
 function draw() {
-  //make background black
-  background(220);
+  //make background black (done)
+  background(0);
 
-  //add a few rectangles
-  //control their colour with mouse
+fill(mouseX/3, 0, mouseX/2);
+ rect(50, 50,50);
+ rect(100, 100,50);
+ rect(150, 150,50);
+ rect(200, 200,50);
+  //control their colour with mouse (done)
+
+  //give me a circle that expads with mouse movement
+  // give text of your least favourite word in pink!
+
 }
