@@ -1,7 +1,11 @@
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-    background(220);
+  //make background black
+  background(220);
+
+  //add a few rectangles
+  //control their colour with mouse
 }
